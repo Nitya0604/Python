@@ -1,0 +1,10 @@
+def check_number(ordered_list, number):
+    if number in ordered_list:
+        print(True)
+    else:
+        print(False)
+
+# Example
+a = [1, 3, 5, 7, 9, 11, 13]
+check_number(a, 7)   # True
+check_number(a, 8)   # False
